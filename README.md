@@ -249,7 +249,61 @@ Use these to test ingestion and scoring flows locally.
 - Warehouse analytics
 
 ---
+## Screenshots
 
+### Overview Dashboard
+
+The overview dashboard gives operations teams a quick summary of current warehouse risk, including SKU risk counts, value-at-risk, adjustment trends, and zone-level hotspots.
+
+![Overview Dashboard](assets/screenshots/overview-dashboard.png)
+
+---
+
+### Data Upload Workflow
+
+Users can upload SKU master data and warehouse adjustment logs directly from the UI. This powers the downstream scoring and recommendation pipeline.
+
+![Upload Data](assets/screenshots/upload-data.png)
+
+---
+
+### SKU Risk Analysis
+
+The SKU Risk module ranks products by operational risk and highlights the key drivers behind each score, such as frequency, drift, value exposure, and zone concentration.
+
+![SKU Risk Table](assets/screenshots/sku-risk-table.png)
+
+---
+
+### Cycle Count Recommendations
+
+The recommendation engine prioritises which SKUs should be reviewed first, helping warehouse teams focus cycle counts on the most operationally significant issues.
+
+![Cycle Count Recommendations](assets/screenshots/cycle-count-recommendations.png)
+
+---
+
+### User Anomaly Detection
+
+The User Anomaly view surfaces unusual operator-level patterns, which can help identify training gaps, workflow issues, or repeated error-prone activity.
+
+![User Anomaly](assets/screenshots/user-anomaly.png)
+
+---
+
+### Investigation Workflow
+
+Users can open and track investigations for high-risk cases, creating a structured process for follow-up and root-cause analysis.
+
+![Investigation Form](assets/screenshots/investigation-form.png)
+
+---
+
+### Top Risk SKUs
+
+The Top Risk SKUs module ranks inventory items by composite risk score, allowing operations teams to quickly identify products with elevated discrepancy risk and prioritise follow-up actions such as cycle counts or investigation.
+
+![Top Risk SKUs](assets/screenshots/top-risk-skus.png)
 ## Disclaimer
 
 This repository contains an MVP / demonstration version of the system.
