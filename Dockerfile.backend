@@ -1,0 +1,23 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# install system deps (needed for psycopg sometimes)
+RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
+
+# install python deps
+COPY api/requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# copy full backend code
+COPY api ./api
+COPY risk_engine ./risk_engine
+COPY services ./services
+
+# ensure entrypoint is executable
+RUN chmod +x /app/api/entrypoint.sh
+
+EXPOSE 8000
+
+# run migrations then start gunicorn
+CMD ["/app/api/entrypoint.sh"]

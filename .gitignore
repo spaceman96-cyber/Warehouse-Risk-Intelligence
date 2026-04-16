@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+wri-dashboard/node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs / temp
+*.log
+*.pid
+*.tmp
+tmp/
+temp/
+
+# Local databases
+*.db
+*.sqlite3
+
+# OS / misc
+Thumbs.db
+
+# Generated outputs
+risk_engine/risk_scores_*.csv
+risk_engine/spike_alerts.csv
+risk_engine/cycle_count_recommendations.csv

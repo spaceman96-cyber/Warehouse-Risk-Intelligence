@@ -1,0 +1,31 @@
+sku_code,sku_name,category,uom,unit_cost,value_band,abc_class,avg_monthly_movement
+SKU-001,Beverages Product 001,Beverages,EA,11.75,high,B,1851
+SKU-002,Beverages Product 002,Beverages,EA,12.67,high,A,2301
+SKU-003,Beverages Product 003,Beverages,EA,10.0,high,A,2009
+SKU-004,Beverages Product 004,Beverages,EA,12.09,high,A,2916
+SKU-005,Beverages Product 005,Beverages,EA,10.0,high,A,2664
+SKU-006,Beverages Product 006,Beverages,EA,10.0,high,B,1991
+SKU-007,Beverages Product 007,Snacks,EA,2.5,med,A,2834
+SKU-008,Beverages Product 008,Beverages,EA,11.42,high,A,2949
+SKU-009,Snacks Product 009,Snacks,EA,2.2,low,A,3330
+SKU-010,Snacks Product 010,Snacks,EA,3.95,low,A,2859
+SKU-011,Snacks Product 011,Snacks,EA,2.27,low,A,3206
+SKU-012,Snacks Product 012,Snacks,EA,2.47,low,A,3780
+SKU-013,Snacks Product 013,Snacks,EA,1.52,low,A,3650
+SKU-014,Snacks Product 014,Snacks,EA,2.06,low,A,2865
+SKU-015,Snacks Product 015,Snacks,EA,2.69,low,A,2318
+SKU-016,Personal Care Product 016,Personal Care,EA,4.94,med,B,1489
+SKU-017,Personal Care Product 017,Personal Care,EA,3.92,low,B,1578
+SKU-018,Personal Care Product 018,Personal Care,EA,3.87,low,B,1504
+SKU-019,Personal Care Product 019,Personal Care,EA,9.0,med,C,888
+SKU-020,Personal Care Product 020,Personal Care,EA,9.57,med,B,1898
+SKU-021,Personal Care Product 021,Personal Care,EA,4.12,med,B,1575
+SKU-022,Household Product 022,Household,EA,2.47,low,B,1200
+SKU-023,Household Product 023,Household,EA,6.98,med,B,1340
+SKU-024,Household Product 024,Household,EA,5.46,med,C,742
+SKU-025,Household Product 025,Household,EA,2.27,low,B,1066
+SKU-026,Household Product 026,Household,EA,6.64,med,C,763
+SKU-027,Frozen Product 027,Frozen,EA,22.54,high,C,503
+SKU-028,Frozen Product 028,Frozen,EA,14.46,high,C,864
+SKU-029,Frozen Product 029,Frozen,EA,18.81,high,C,773
+SKU-030,Frozen Product 030,Frozen,EA,10.77,high,C,763
